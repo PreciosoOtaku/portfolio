@@ -4,7 +4,7 @@
       whatsapp: "244953415452",          // número com código do país, sem + nem espaços
       facebook: "https://www.facebook.com/share/14qFRTqHuXk/",
       instagram: "https://www.instagram.com/precioso_wakeni?stkn=MXQxeGRreHk4ank0bg==",
-      github: "https://github.com/seu-usuario"
+      github: "https://github.com/preciosowakeni"
     };
     document.getElementById("navName").textContent = ME.nome;
     document.title = ME.nome + " | Técnico de Informática";
