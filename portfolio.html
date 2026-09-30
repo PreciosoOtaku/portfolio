@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+  <html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Portfólio | Técnico de Informática</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="wrap">
+      <nav>
+        <b id="navName">Seu Nome</b>
+        <div><a href="#sobre">Sobre</a><a href="#competencias">Competências</a><a href="#projetos">Projetos</a><a href="#contacto">Contacto</a></div>
+      </nav>
+
+      <header class="hero">
+        <div>
+          <h1>Técnico de Informática<span>que também programa.</span></h1>
+          <p>Instalo sistemas e desenvolvo em Python, Javascript Basico e Flutter. Estou à procura da minha primeira oportunidade na área de TI.</p>
+          <div class="btns">
+            <a class="btn main" id="ctaWa" href="#contacto">Falar no WhatsApp</a>
+            <a class="btn" id="ctaGh" href="#contacto">Ver o meu GitHub</a>
+          </div>
+        </div>
+        <div class="term" aria-label="Resumo do perfil em código">
+          <div class="bar"><i></i><i></i><i></i></div>
+    <pre><span class="k">perfil</span> = {
+      <span class="s">"cargo"</span>: <span class="s">"Técnico de Informática"</span>,
+      <span class="s">"formação"</span>: <span class="s">"13ª classe a frequentar"</span>,
+      <span class="s">"linguagens"</span>: [<span class="s">"Python"</span>, <span class="s">"Dart"</span>, <span class="s">"Javascript"</span>],
+      <span class="s">"procura"</span>: <span class="s">"emprego em TI"</span>,
+      <span class="s">"disponível"</span>: <span class="k">True</span>
+    }<span class="cursor"></span></pre>
+        </div>
+      </header>
+
+      <section id="sobre" style="padding-top:20px">
+        <h2>Sobre mim</h2>
+        <p style="max-width:62ch;color:var(--muted)">Sou técnico de informática e gosto de resolver problemas reais: computadores lentos, sistemas que não arrancam, tarefas repetitivas que podem ser automatizadas. Estou a investir forte em programação e a construir projetos próprios para crescer na área. Aprendo depressa e gosto de ensinar o que sei.</p>
+      </section>
+
+      <section id="competencias">
+        <h2>Competências</h2>
+        <div class="two">
+          <div class="box">
+            <h3>Informática</h3>
+            <ul class="tags"><li>Instalação de Windows</li><li>Montagem de PC</li><li>Word</li><li>PowerPoint</li><li>Canva</li></ul>
+          </div>
+          <div class="box">
+            <h3>Programação</h3>
+            <ul class="tags"><li>Python</li><li>Django</li><li>PyAutoGUI</li><li>Selenium</li><li>OpenCV</li><li>JSON e ficheiros de texto</li><li>Javascript</li><li>Flutter e Dart (a aprender)</li></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="proj">
+          <article class="card"><h3>Reconhecimento facial</h3><p>Deteção de rostos em tempo real com Python e OpenCV.</p><small>Python · OpenCV</small></article>
+          <article class="card"><h3>Automação Web</h3><p>Script que controla o navegador com Python e Selenium.</p><small>Python · Selenium</small></article>
+          <article class="card"><h3>Automação de tarefas</h3><p>Script que controla o rato e o teclado para fazer trabalho repetitivo sozinho.</p><small>Python · PyAutoGUI</small></article>
+          <article class="card"><h3>Sistema web</h3><p>Aplicação com back-end, base de dados e páginas dinâmicas.</p><small>Python · Django</small></article>
+          <article class="card"><h3>Mural da Escola</h3><p>App com login, publicações e likes para os alunos. Em desenvolvimento.</p><small>Flutter · Firebase</small></article>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <div class="contact">
+          <h2>Vamos trabalhar juntos?</h2>
+          <p>Se tem uma vaga, um projeto ou um computador para resolver, fale comigo.</p>
+          <div class="links" id="links"></div>
+        </div>
+      </section>
+      <footer id="foot"></footer>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
